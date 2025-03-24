@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto" sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
 }
 ul,
@@ -91,8 +91,9 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
   background: #4d5ae5;
+  cursor: pointer;
 }
 .button-slogan:hover {
   background-color: #404bbf;
@@ -193,6 +194,8 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/*------------footer-----------*/
 .footer {
   background-color: #2e2f42;
 }
