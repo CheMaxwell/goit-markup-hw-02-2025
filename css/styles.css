@@ -41,12 +41,14 @@ a {
 }
 .navy-item {
 }
-.address-list:hover {
+.navy-item-studio {
+  color: #2e2f42;
+}
+.navy-item-studio:hover,
+.navy-item-studio:focus {
   color: #404bbf;
 }
-.address-list:focus {
-  color: #404bbf;
-}
+
 .address {
   font-weight: 400;
   font-size: 16px;
@@ -65,7 +67,11 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-list:hover {
+.address-mail {
+  color: #434455;
+}
+.address-mail:hover,
+.address-mail:focus {
   color: #404bbf;
 }
 .address-list:focus {
@@ -135,7 +141,7 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-
+  text-transform: capitalize;
   /* line-height: 40px; */
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -160,7 +166,7 @@ a {
 .team-title-text {
   font-weight: 400;
   font-size: 16px;
-
+  text-transform: capitalize;
   /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
