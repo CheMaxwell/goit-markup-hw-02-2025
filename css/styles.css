@@ -41,25 +41,11 @@ a {
 }
 .navy-item {
 }
-.navy-item-studio {
+.navy-item-link {
   color: #2e2f42;
 }
-.navy-item-studio:hover,
-.navy-item-studio:focus {
-  color: #404bbf;
-}
-.navy-item-portfolio {
-  color: #2e2f42;
-}
-.navy-item-portfolio:hover,
-.navy-item-portfolio:focus {
-  color: #404bbf;
-}
-.navy-item-contacts {
-  color: #2e2f42;
-}
-.navy-item-contacts:hover,
-.navy-item-contacts:focus {
+.navy-item-link:hover,
+.navy-item-link:focus {
   color: #404bbf;
 }
 
@@ -81,20 +67,14 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-mail {
+.address-link {
   color: #434455;
 }
-.address-mail:hover,
-.address-mail:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
-.address-tel {
-  color: #434455;
-}
-.address-tel:hover,
-.address-tel:focus {
-  color: #404bbf;
-}
+
 .address-list:focus {
 }
 
