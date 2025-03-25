@@ -48,6 +48,20 @@ a {
 .navy-item-studio:focus {
   color: #404bbf;
 }
+.navy-item-portfolio {
+  color: #2e2f42;
+}
+.navy-item-portfolio:hover,
+.navy-item-portfolio:focus {
+  color: #404bbf;
+}
+.navy-item-contacts {
+  color: #2e2f42;
+}
+.navy-item-contacts:hover,
+.navy-item-contacts:focus {
+  color: #404bbf;
+}
 
 .address {
   font-weight: 400;
@@ -72,6 +86,13 @@ a {
 }
 .address-mail:hover,
 .address-mail:focus {
+  color: #404bbf;
+}
+.address-tel {
+  color: #434455;
+}
+.address-tel:hover,
+.address-tel:focus {
   color: #404bbf;
 }
 .address-list:focus {
@@ -100,7 +121,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
   background: #4d5ae5;
   cursor: pointer;
 }
@@ -178,7 +198,7 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-
+  text-transform: capitalize;
   /* line-height: 40px; */
   line-height: 1.11;
   letter-spacing: 0.02em;
